@@ -1,0 +1,23 @@
+{
+    "name": "sllh/hybrid-auth-bundle",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/Soullivaneuh/SLLHHybridAuthBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sullivan Sénéchal",
+            "email": "soullivaneuh@gmail.com",
+            "homepage": "https://github.com/Soullivaneuh"
+        }
+    ],
+    "require": {
+        "hybridauth/hybridauth": "3.0.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "SLLH\\Bundle\\HybridAuthBundle": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "SLLH/Bundle/HybridauthBundle"
+}
